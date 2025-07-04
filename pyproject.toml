@@ -1,0 +1,14 @@
+[project]
+name = "soup_agent"
+version = "0.1.0"
+description = "A Django project to summarize websites using langgraph for UI and backend."
+authors = ["Your Name <your.email@example.com>"]
+requires-python = ">=3.9"
+dependencies = [
+    "django>=4.2",
+    "langgraph",
+    "streamlit"
+]
+
+[tool.uv]
+# uv-specific settings can go here if needed 
